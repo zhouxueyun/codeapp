@@ -326,7 +326,7 @@ struct CodeApp: App {
                 ) in
 
                 let sharedURL = FileManager.default.containerURL(
-                    forSecurityApplicationGroupIdentifier: "group.com.thebaselab.code")!
+                    forSecurityApplicationGroupIdentifier: "group.com.xueyun.code")!
                 let stdoutURL = sharedURL.appendingPathComponent("stdout")
 
                 guard let data = try? Data(contentsOf: stdoutURL),
@@ -418,7 +418,7 @@ var globalLightTheme: [String: Any]? = nil
 
 func sharedURL() -> URL {
     return FileManager.default.containerURL(
-        forSecurityApplicationGroupIdentifier: "group.com.thebaselab.code")!
+        forSecurityApplicationGroupIdentifier: "group.com.xueyun.code")!
 }
 
 func refreshNodeCommands() {

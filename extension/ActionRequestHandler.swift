@@ -8,7 +8,7 @@
 import UIKit
 import MobileCoreServices
 
-let sharedURL = FileManager.default.containerURL(forSecurityApplicationGroupIdentifier: "group.com.thebaselab.code")!
+let sharedURL = FileManager.default.containerURL(forSecurityApplicationGroupIdentifier: "group.com.xueyun.code")!
 
 class OutputListener {
     /// consumes the messages on STDOUT
